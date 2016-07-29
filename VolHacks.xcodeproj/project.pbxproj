@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2E623171D4BFFB2000399BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E623161D4BFFB2000399BC /* AppDelegate.swift */; };
+		C2E623191D4BFFB2000399BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E623181D4BFFB2000399BC /* ViewController.swift */; };
+		C2E6231C1D4BFFB2000399BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E6231A1D4BFFB2000399BC /* Main.storyboard */; };
+		C2E6231E1D4BFFB2000399BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E6231D1D4BFFB2000399BC /* Assets.xcassets */; };
+		C2E623211D4BFFB2000399BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E6231F1D4BFFB2000399BC /* LaunchScreen.storyboard */; };
+		C2E6232C1D4BFFB2000399BC /* VolHacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E6232B1D4BFFB2000399BC /* VolHacksTests.swift */; };
+		C2E623371D4BFFB2000399BC /* VolHacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E623361D4BFFB2000399BC /* VolHacksUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2E623281D4BFFB2000399BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E6230B1D4BFFB2000399BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E623121D4BFFB2000399BC;
+			remoteInfo = VolHacks;
+		};
+		C2E623331D4BFFB2000399BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E6230B1D4BFFB2000399BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E623121D4BFFB2000399BC;
+			remoteInfo = VolHacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2E623131D4BFFB2000399BC /* VolHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E623161D4BFFB2000399BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2E623181D4BFFB2000399BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2E6231B1D4BFFB2000399BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2E6231D1D4BFFB2000399BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E623201D4BFFB2000399BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2E623221D4BFFB2000399BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E623271D4BFFB2000399BC /* VolHacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolHacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E6232B1D4BFFB2000399BC /* VolHacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolHacksTests.swift; sourceTree = "<group>"; };
+		C2E6232D1D4BFFB2000399BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E623321D4BFFB2000399BC /* VolHacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolHacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E623361D4BFFB2000399BC /* VolHacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolHacksUITests.swift; sourceTree = "<group>"; };
+		C2E623381D4BFFB2000399BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E623101D4BFFB2000399BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E623241D4BFFB2000399BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E6232F1D4BFFB2000399BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2E6230A1D4BFFB2000399BC = {
+			isa = PBXGroup;
+			children = (
+				C2E623151D4BFFB2000399BC /* VolHacks */,
+				C2E6232A1D4BFFB2000399BC /* VolHacksTests */,
+				C2E623351D4BFFB2000399BC /* VolHacksUITests */,
+				C2E623141D4BFFB2000399BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E623141D4BFFB2000399BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E623131D4BFFB2000399BC /* VolHacks.app */,
+				C2E623271D4BFFB2000399BC /* VolHacksTests.xctest */,
+				C2E623321D4BFFB2000399BC /* VolHacksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E623151D4BFFB2000399BC /* VolHacks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E623161D4BFFB2000399BC /* AppDelegate.swift */,
+				C2E623181D4BFFB2000399BC /* ViewController.swift */,
+				C2E6231A1D4BFFB2000399BC /* Main.storyboard */,
+				C2E6231D1D4BFFB2000399BC /* Assets.xcassets */,
+				C2E6231F1D4BFFB2000399BC /* LaunchScreen.storyboard */,
+				C2E623221D4BFFB2000399BC /* Info.plist */,
+			);
+			path = VolHacks;
+			sourceTree = "<group>";
+		};
+		C2E6232A1D4BFFB2000399BC /* VolHacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E6232B1D4BFFB2000399BC /* VolHacksTests.swift */,
+				C2E6232D1D4BFFB2000399BC /* Info.plist */,
+			);
+			path = VolHacksTests;
+			sourceTree = "<group>";
+		};
+		C2E623351D4BFFB2000399BC /* VolHacksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2E623361D4BFFB2000399BC /* VolHacksUITests.swift */,
+				C2E623381D4BFFB2000399BC /* Info.plist */,
+			);
+			path = VolHacksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E623121D4BFFB2000399BC /* VolHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E6233B1D4BFFB2000399BC /* Build configuration list for PBXNativeTarget "VolHacks" */;
+			buildPhases = (
+				C2E6230F1D4BFFB2000399BC /* Sources */,
+				C2E623101D4BFFB2000399BC /* Frameworks */,
+				C2E623111D4BFFB2000399BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolHacks;
+			productName = VolHacks;
+			productReference = C2E623131D4BFFB2000399BC /* VolHacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2E623261D4BFFB2000399BC /* VolHacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E6233E1D4BFFB2000399BC /* Build configuration list for PBXNativeTarget "VolHacksTests" */;
+			buildPhases = (
+				C2E623231D4BFFB2000399BC /* Sources */,
+				C2E623241D4BFFB2000399BC /* Frameworks */,
+				C2E623251D4BFFB2000399BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E623291D4BFFB2000399BC /* PBXTargetDependency */,
+			);
+			name = VolHacksTests;
+			productName = VolHacksTests;
+			productReference = C2E623271D4BFFB2000399BC /* VolHacksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2E623311D4BFFB2000399BC /* VolHacksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E623411D4BFFB2000399BC /* Build configuration list for PBXNativeTarget "VolHacksUITests" */;
+			buildPhases = (
+				C2E6232E1D4BFFB2000399BC /* Sources */,
+				C2E6232F1D4BFFB2000399BC /* Frameworks */,
+				C2E623301D4BFFB2000399BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E623341D4BFFB2000399BC /* PBXTargetDependency */,
+			);
+			name = VolHacksUITests;
+			productName = VolHacksUITests;
+			productReference = C2E623321D4BFFB2000399BC /* VolHacksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E6230B1D4BFFB2000399BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kyle Bashour";
+				TargetAttributes = {
+					C2E623121D4BFFB2000399BC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C2E623261D4BFFB2000399BC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C2E623121D4BFFB2000399BC;
+					};
+					C2E623311D4BFFB2000399BC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C2E623121D4BFFB2000399BC;
+					};
+				};
+			};
+			buildConfigurationList = C2E6230E1D4BFFB2000399BC /* Build configuration list for PBXProject "VolHacks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2E6230A1D4BFFB2000399BC;
+			productRefGroup = C2E623141D4BFFB2000399BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E623121D4BFFB2000399BC /* VolHacks */,
+				C2E623261D4BFFB2000399BC /* VolHacksTests */,
+				C2E623311D4BFFB2000399BC /* VolHacksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E623111D4BFFB2000399BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E623211D4BFFB2000399BC /* LaunchScreen.storyboard in Resources */,
+				C2E6231E1D4BFFB2000399BC /* Assets.xcassets in Resources */,
+				C2E6231C1D4BFFB2000399BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E623251D4BFFB2000399BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E623301D4BFFB2000399BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E6230F1D4BFFB2000399BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E623191D4BFFB2000399BC /* ViewController.swift in Sources */,
+				C2E623171D4BFFB2000399BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E623231D4BFFB2000399BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E6232C1D4BFFB2000399BC /* VolHacksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E6232E1D4BFFB2000399BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E623371D4BFFB2000399BC /* VolHacksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2E623291D4BFFB2000399BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E623121D4BFFB2000399BC /* VolHacks */;
+			targetProxy = C2E623281D4BFFB2000399BC /* PBXContainerItemProxy */;
+		};
+		C2E623341D4BFFB2000399BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E623121D4BFFB2000399BC /* VolHacks */;
+			targetProxy = C2E623331D4BFFB2000399BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2E6231A1D4BFFB2000399BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E6231B1D4BFFB2000399BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2E6231F1D4BFFB2000399BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E623201D4BFFB2000399BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2E623391D4BFFB2000399BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2E6233A1D4BFFB2000399BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2E6233C1D4BFFB2000399BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VolHacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.VolHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2E6233D1D4BFFB2000399BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VolHacks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.VolHacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2E6233F1D4BFFB2000399BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VolHacksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.VolHacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolHacks.app/VolHacks";
+			};
+			name = Debug;
+		};
+		C2E623401D4BFFB2000399BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VolHacksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.VolHacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VolHacks.app/VolHacks";
+			};
+			name = Release;
+		};
+		C2E623421D4BFFB2000399BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VolHacksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.VolHacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VolHacks;
+			};
+			name = Debug;
+		};
+		C2E623431D4BFFB2000399BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VolHacksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kylebashour.VolHacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VolHacks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E6230E1D4BFFB2000399BC /* Build configuration list for PBXProject "VolHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E623391D4BFFB2000399BC /* Debug */,
+				C2E6233A1D4BFFB2000399BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E6233B1D4BFFB2000399BC /* Build configuration list for PBXNativeTarget "VolHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E6233C1D4BFFB2000399BC /* Debug */,
+				C2E6233D1D4BFFB2000399BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2E6233E1D4BFFB2000399BC /* Build configuration list for PBXNativeTarget "VolHacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E6233F1D4BFFB2000399BC /* Debug */,
+				C2E623401D4BFFB2000399BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2E623411D4BFFB2000399BC /* Build configuration list for PBXNativeTarget "VolHacksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E623421D4BFFB2000399BC /* Debug */,
+				C2E623431D4BFFB2000399BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E6230B1D4BFFB2000399BC /* Project object */;
+}
