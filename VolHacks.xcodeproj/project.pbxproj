@@ -18,6 +18,7 @@
 		C211CADF1D4C07E700AE9550 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211CADE1D4C07E700AE9550 /* Theme.swift */; };
 		C211CAE11D4C0D6400AE9550 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211CAE01D4C0D6400AE9550 /* FAQViewController.swift */; };
 		C211CAE31D4C0D8A00AE9550 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211CAE21D4C0D8A00AE9550 /* ResourcesViewController.swift */; };
+		C211CAE61D4C0F2400AE9550 /* FAQCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211CAE51D4C0F2400AE9550 /* FAQCell.swift */; };
 		C2E623171D4BFFB2000399BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E623161D4BFFB2000399BC /* AppDelegate.swift */; };
 		C2E623191D4BFFB2000399BC /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E623181D4BFFB2000399BC /* ScheduleViewController.swift */; };
 		C2E6231C1D4BFFB2000399BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E6231A1D4BFFB2000399BC /* Main.storyboard */; };
@@ -62,6 +63,7 @@
 		C211CADE1D4C07E700AE9550 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		C211CAE01D4C0D6400AE9550 /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 		C211CAE21D4C0D8A00AE9550 /* ResourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		C211CAE51D4C0F2400AE9550 /* FAQCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQCell.swift; sourceTree = "<group>"; };
 		C2E623131D4BFFB2000399BC /* VolHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E623161D4BFFB2000399BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2E623181D4BFFB2000399BC /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +141,14 @@
 			name = Utilities;
 			sourceTree = "<group>";
 		};
+		C211CAE41D4C0F1800AE9550 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C211CAE51D4C0F2400AE9550 /* FAQCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		C2BC38A01D4C04EF00687BD0 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +197,7 @@
 			children = (
 				C2E623161D4BFFB2000399BC /* AppDelegate.swift */,
 				C211CADC1D4C07DC00AE9550 /* Utilities */,
+				C211CAE41D4C0F1800AE9550 /* Cells */,
 				C2BC38A11D4C04F600687BD0 /* View Controllers */,
 				C2BC38A01D4C04EF00687BD0 /* Storyboards */,
 				C211CAD81D4C077400AE9550 /* Extensions */,
@@ -532,6 +543,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C211CAE61D4C0F2400AE9550 /* FAQCell.swift in Sources */,
 				C2E623191D4BFFB2000399BC /* ScheduleViewController.swift in Sources */,
 				C211CADB1D4C079C00AE9550 /* UIColor+Extensions.swift in Sources */,
 				C211CADF1D4C07E700AE9550 /* Theme.swift in Sources */,
