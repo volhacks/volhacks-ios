@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22B71773CB754F61B4C65EC4 /* Pods_VolHacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 626948F9AA526F4EC7BE7F77 /* Pods_VolHacks.framework */; };
+		8DE0D1FBF6F36FE609B6AA98 /* Pods_VolHacksUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF6B181185AF67A145595206 /* Pods_VolHacksUITests.framework */; };
+		C211CAD11D4C05D500AE9550 /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2E6234B1D4C02F6000399BC /* Lora-Regular.ttf */; };
+		C211CAD21D4C05D500AE9550 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2E623541D4C03E1000399BC /* Gotham-Black.otf */; };
+		C211CAD31D4C05D500AE9550 /* Gotham-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2E623551D4C03E1000399BC /* Gotham-Book.otf */; };
+		C211CAD41D4C05D500AE9550 /* Gotham-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2E623561D4C03E1000399BC /* Gotham-Medium.otf */; };
+		C211CAD71D4C06AF00AE9550 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211CAD61D4C06AF00AE9550 /* R.generated.swift */; };
+		C211CADB1D4C079C00AE9550 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211CADA1D4C079C00AE9550 /* UIColor+Extensions.swift */; };
+		C211CADF1D4C07E700AE9550 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211CADE1D4C07E700AE9550 /* Theme.swift */; };
+		C211CAE11D4C0D6400AE9550 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211CAE01D4C0D6400AE9550 /* FAQViewController.swift */; };
+		C211CAE31D4C0D8A00AE9550 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211CAE21D4C0D8A00AE9550 /* ResourcesViewController.swift */; };
 		C2E623171D4BFFB2000399BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E623161D4BFFB2000399BC /* AppDelegate.swift */; };
-		C2E623191D4BFFB2000399BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E623181D4BFFB2000399BC /* ViewController.swift */; };
+		C2E623191D4BFFB2000399BC /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E623181D4BFFB2000399BC /* ScheduleViewController.swift */; };
 		C2E6231C1D4BFFB2000399BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E6231A1D4BFFB2000399BC /* Main.storyboard */; };
 		C2E6231E1D4BFFB2000399BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E6231D1D4BFFB2000399BC /* Assets.xcassets */; };
 		C2E623211D4BFFB2000399BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E6231F1D4BFFB2000399BC /* LaunchScreen.storyboard */; };
 		C2E6232C1D4BFFB2000399BC /* VolHacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E6232B1D4BFFB2000399BC /* VolHacksTests.swift */; };
 		C2E623371D4BFFB2000399BC /* VolHacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E623361D4BFFB2000399BC /* VolHacksUITests.swift */; };
+		C2E623451D4C01DA000399BC /* Schedule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E623441D4C01DA000399BC /* Schedule.storyboard */; };
+		C2E623471D4C01E0000399BC /* FAQ.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E623461D4C01E0000399BC /* FAQ.storyboard */; };
+		C2E623491D4C01E9000399BC /* Resources.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E623481D4C01E9000399BC /* Resources.storyboard */; };
+		D47BC7CF942048330ABBD88A /* Pods_VolHacksTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3890B08D2DFE29DDB5E7DD24 /* Pods_VolHacksTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1349A926F067C7EBDF1015B0 /* Pods-VolHacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolHacks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VolHacks/Pods-VolHacks.debug.xcconfig"; sourceTree = "<group>"; };
+		15A3A8D59595C87E42367780 /* Pods-VolHacksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolHacksUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VolHacksUITests/Pods-VolHacksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2649E16F9C269B46A5FFD52F /* Pods-VolHacksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolHacksTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VolHacksTests/Pods-VolHacksTests.release.xcconfig"; sourceTree = "<group>"; };
+		26D7C72612842F8764C081AF /* Pods-VolHacksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolHacksTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VolHacksTests/Pods-VolHacksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3890B08D2DFE29DDB5E7DD24 /* Pods_VolHacksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolHacksTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8D9C39B419698A3075FDC5 /* Pods-VolHacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolHacksUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VolHacksUITests/Pods-VolHacksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		626948F9AA526F4EC7BE7F77 /* Pods_VolHacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolHacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6B181185AF67A145595206 /* Pods_VolHacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VolHacksUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C211CAD61D4C06AF00AE9550 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		C211CADA1D4C079C00AE9550 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		C211CADE1D4C07E700AE9550 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C211CAE01D4C0D6400AE9550 /* FAQViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		C211CAE21D4C0D8A00AE9550 /* ResourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		C2E623131D4BFFB2000399BC /* VolHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E623161D4BFFB2000399BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2E623181D4BFFB2000399BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2E623181D4BFFB2000399BC /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		C2E6231B1D4BFFB2000399BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2E6231D1D4BFFB2000399BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2E623201D4BFFB2000399BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +75,14 @@
 		C2E623321D4BFFB2000399BC /* VolHacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VolHacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E623361D4BFFB2000399BC /* VolHacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolHacksUITests.swift; sourceTree = "<group>"; };
 		C2E623381D4BFFB2000399BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E623441D4C01DA000399BC /* Schedule.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Schedule.storyboard; sourceTree = "<group>"; };
+		C2E623461D4C01E0000399BC /* FAQ.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FAQ.storyboard; sourceTree = "<group>"; };
+		C2E623481D4C01E9000399BC /* Resources.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Resources.storyboard; sourceTree = "<group>"; };
+		C2E6234B1D4C02F6000399BC /* Lora-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lora-Regular.ttf"; path = "fonts/Lora-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		C2E623541D4C03E1000399BC /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Black.otf"; path = "fonts/Gotham-Black.otf"; sourceTree = SOURCE_ROOT; };
+		C2E623551D4C03E1000399BC /* Gotham-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Book.otf"; path = "fonts/Gotham-Book.otf"; sourceTree = SOURCE_ROOT; };
+		C2E623561D4C03E1000399BC /* Gotham-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Medium.otf"; path = "fonts/Gotham-Medium.otf"; sourceTree = SOURCE_ROOT; };
+		D8942914CA92C996DFD8819D /* Pods-VolHacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VolHacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-VolHacks/Pods-VolHacks.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B71773CB754F61B4C65EC4 /* Pods_VolHacks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D47BC7CF942048330ABBD88A /* Pods_VolHacksTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +106,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE0D1FBF6F36FE609B6AA98 /* Pods_VolHacksUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		514A683E9BECD67DEC6E7AB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				626948F9AA526F4EC7BE7F77 /* Pods_VolHacks.framework */,
+				3890B08D2DFE29DDB5E7DD24 /* Pods_VolHacksTests.framework */,
+				BF6B181185AF67A145595206 /* Pods_VolHacksUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C211CAD81D4C077400AE9550 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C211CADA1D4C079C00AE9550 /* UIColor+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		C211CADC1D4C07DC00AE9550 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C211CADE1D4C07E700AE9550 /* Theme.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		C2BC38A01D4C04EF00687BD0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C2E6231A1D4BFFB2000399BC /* Main.storyboard */,
+				C2E623441D4C01DA000399BC /* Schedule.storyboard */,
+				C2E623461D4C01E0000399BC /* FAQ.storyboard */,
+				C2E623481D4C01E9000399BC /* Resources.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		C2BC38A11D4C04F600687BD0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2E623181D4BFFB2000399BC /* ScheduleViewController.swift */,
+				C211CAE01D4C0D6400AE9550 /* FAQViewController.swift */,
+				C211CAE21D4C0D8A00AE9550 /* ResourcesViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		C2E6230A1D4BFFB2000399BC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +167,8 @@
 				C2E6232A1D4BFFB2000399BC /* VolHacksTests */,
 				C2E623351D4BFFB2000399BC /* VolHacksUITests */,
 				C2E623141D4BFFB2000399BC /* Products */,
+				FF5F192ACB93A1D7574089E4 /* Pods */,
+				514A683E9BECD67DEC6E7AB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +186,11 @@
 			isa = PBXGroup;
 			children = (
 				C2E623161D4BFFB2000399BC /* AppDelegate.swift */,
-				C2E623181D4BFFB2000399BC /* ViewController.swift */,
-				C2E6231A1D4BFFB2000399BC /* Main.storyboard */,
-				C2E6231D1D4BFFB2000399BC /* Assets.xcassets */,
-				C2E6231F1D4BFFB2000399BC /* LaunchScreen.storyboard */,
-				C2E623221D4BFFB2000399BC /* Info.plist */,
+				C211CADC1D4C07DC00AE9550 /* Utilities */,
+				C2BC38A11D4C04F600687BD0 /* View Controllers */,
+				C2BC38A01D4C04EF00687BD0 /* Storyboards */,
+				C211CAD81D4C077400AE9550 /* Extensions */,
+				C2E6234A1D4C02EB000399BC /* Assets */,
 			);
 			path = VolHacks;
 			sourceTree = "<group>";
@@ -125,6 +213,42 @@
 			path = VolHacksUITests;
 			sourceTree = "<group>";
 		};
+		C2E6234A1D4C02EB000399BC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C2E6234F1D4C02FA000399BC /* Fonts */,
+				C2E6231D1D4BFFB2000399BC /* Assets.xcassets */,
+				C211CAD61D4C06AF00AE9550 /* R.generated.swift */,
+				C2E6231F1D4BFFB2000399BC /* LaunchScreen.storyboard */,
+				C2E623221D4BFFB2000399BC /* Info.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		C2E6234F1D4C02FA000399BC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C2E6234B1D4C02F6000399BC /* Lora-Regular.ttf */,
+				C2E623541D4C03E1000399BC /* Gotham-Black.otf */,
+				C2E623551D4C03E1000399BC /* Gotham-Book.otf */,
+				C2E623561D4C03E1000399BC /* Gotham-Medium.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		FF5F192ACB93A1D7574089E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1349A926F067C7EBDF1015B0 /* Pods-VolHacks.debug.xcconfig */,
+				D8942914CA92C996DFD8819D /* Pods-VolHacks.release.xcconfig */,
+				26D7C72612842F8764C081AF /* Pods-VolHacksTests.debug.xcconfig */,
+				2649E16F9C269B46A5FFD52F /* Pods-VolHacksTests.release.xcconfig */,
+				15A3A8D59595C87E42367780 /* Pods-VolHacksUITests.debug.xcconfig */,
+				5D8D9C39B419698A3075FDC5 /* Pods-VolHacksUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +256,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2E6233B1D4BFFB2000399BC /* Build configuration list for PBXNativeTarget "VolHacks" */;
 			buildPhases = (
+				28ACE30F1A7145BA1A2BEBC3 /* [CP] Check Pods Manifest.lock */,
+				C211CAD51D4C066D00AE9550 /* ShellScript */,
 				C2E6230F1D4BFFB2000399BC /* Sources */,
 				C2E623101D4BFFB2000399BC /* Frameworks */,
 				C2E623111D4BFFB2000399BC /* Resources */,
+				841229F9EAADE4D6FD834423 /* [CP] Embed Pods Frameworks */,
+				4F8E2C3646F9B30547C1169B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2E6233E1D4BFFB2000399BC /* Build configuration list for PBXNativeTarget "VolHacksTests" */;
 			buildPhases = (
+				B04365B097E560F1837ECBCC /* [CP] Check Pods Manifest.lock */,
 				C2E623231D4BFFB2000399BC /* Sources */,
 				C2E623241D4BFFB2000399BC /* Frameworks */,
 				C2E623251D4BFFB2000399BC /* Resources */,
+				8117BBBD4586552C2AB2093F /* [CP] Embed Pods Frameworks */,
+				744BB49934C7AA99951DFD95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2E623411D4BFFB2000399BC /* Build configuration list for PBXNativeTarget "VolHacksUITests" */;
 			buildPhases = (
+				51DF6F0A19CCE93E73B590F1 /* [CP] Check Pods Manifest.lock */,
 				C2E6232E1D4BFFB2000399BC /* Sources */,
 				C2E6232F1D4BFFB2000399BC /* Frameworks */,
 				C2E623301D4BFFB2000399BC /* Resources */,
+				FBAA7FCCD4C1019D59B765CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,8 +363,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2E623211D4BFFB2000399BC /* LaunchScreen.storyboard in Resources */,
+				C211CAD21D4C05D500AE9550 /* Gotham-Black.otf in Resources */,
 				C2E6231E1D4BFFB2000399BC /* Assets.xcassets in Resources */,
+				C2E623491D4C01E9000399BC /* Resources.storyboard in Resources */,
+				C211CAD41D4C05D500AE9550 /* Gotham-Medium.otf in Resources */,
+				C211CAD11D4C05D500AE9550 /* Lora-Regular.ttf in Resources */,
 				C2E6231C1D4BFFB2000399BC /* Main.storyboard in Resources */,
+				C211CAD31D4C05D500AE9550 /* Gotham-Book.otf in Resources */,
+				C2E623471D4C01E0000399BC /* FAQ.storyboard in Resources */,
+				C2E623451D4C01DA000399BC /* Schedule.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +391,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28ACE30F1A7145BA1A2BEBC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8E2C3646F9B30547C1169B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolHacks/Pods-VolHacks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51DF6F0A19CCE93E73B590F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		744BB49934C7AA99951DFD95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolHacksTests/Pods-VolHacksTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8117BBBD4586552C2AB2093F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolHacksTests/Pods-VolHacksTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		841229F9EAADE4D6FD834423 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolHacks/Pods-VolHacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04365B097E560F1837ECBCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C211CAD51D4C066D00AE9550 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
+		FBAA7FCCD4C1019D59B765CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VolHacksUITests/Pods-VolHacksUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2E6230F1D4BFFB2000399BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2E623191D4BFFB2000399BC /* ViewController.swift in Sources */,
+				C2E623191D4BFFB2000399BC /* ScheduleViewController.swift in Sources */,
+				C211CADB1D4C079C00AE9550 /* UIColor+Extensions.swift in Sources */,
+				C211CADF1D4C07E700AE9550 /* Theme.swift in Sources */,
+				C211CAE31D4C0D8A00AE9550 /* ResourcesViewController.swift in Sources */,
+				C211CAE11D4C0D6400AE9550 /* FAQViewController.swift in Sources */,
 				C2E623171D4BFFB2000399BC /* AppDelegate.swift in Sources */,
+				C211CAD71D4C06AF00AE9550 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +678,7 @@
 		};
 		C2E6233C1D4BFFB2000399BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1349A926F067C7EBDF1015B0 /* Pods-VolHacks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VolHacks/Info.plist;
@@ -408,6 +690,7 @@
 		};
 		C2E6233D1D4BFFB2000399BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8942914CA92C996DFD8819D /* Pods-VolHacks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VolHacks/Info.plist;
@@ -419,6 +702,7 @@
 		};
 		C2E6233F1D4BFFB2000399BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D7C72612842F8764C081AF /* Pods-VolHacksTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VolHacksTests/Info.plist;
@@ -431,6 +715,7 @@
 		};
 		C2E623401D4BFFB2000399BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2649E16F9C269B46A5FFD52F /* Pods-VolHacksTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VolHacksTests/Info.plist;
@@ -443,6 +728,7 @@
 		};
 		C2E623421D4BFFB2000399BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A3A8D59595C87E42367780 /* Pods-VolHacksUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = VolHacksUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +740,7 @@
 		};
 		C2E623431D4BFFB2000399BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8D9C39B419698A3075FDC5 /* Pods-VolHacksUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = VolHacksUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +769,7 @@
 				C2E6233D1D4BFFB2000399BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2E6233E1D4BFFB2000399BC /* Build configuration list for PBXNativeTarget "VolHacksTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +778,7 @@
 				C2E623401D4BFFB2000399BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2E623411D4BFFB2000399BC /* Build configuration list for PBXNativeTarget "VolHacksUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +787,7 @@
 				C2E623431D4BFFB2000399BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
